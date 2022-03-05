@@ -20,6 +20,7 @@ glinet背靠openwrt刷机没设门槛，看着mt1300挺迷你还可以c口供电
 - 对支持远程启动的设备，提供Wake on LAN功能
 - 集成 mwan3 支持多拨加速
 - 集成 kmod-macvlan 破解单 Mac 地址限速
+- 集成漂亮的Argon主题
 
 注：  
 2. 默认的登录账号为root，密码为toor
