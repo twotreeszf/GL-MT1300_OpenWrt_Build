@@ -11,7 +11,6 @@ glinet背靠openwrt刷机没设门槛，看着mt1300挺迷你还可以c口供电
 
 ## 需自行启动 Action 构建
 ### master 分支，mt76 开源驱动
-在20211126版的基础上：  
 - mt76开源无线驱动，集成natflow内核模块，使无线转发效率接近硬件NAT的水平
 - 集成Easymesh图形界面，支持有线回程mesh组网
 - 去掉USB接口读取U盘的功能（与natflow冲突），追加外接4G/LTE模块功能
@@ -19,6 +18,8 @@ glinet背靠openwrt刷机没设门槛，看着mt1300挺迷你还可以c口供电
 - 支持全锥形NAT（Fullcone）、BBR拥塞算法、MWAN多播、有线硬件转发，可提高在线游戏体验
 - 使用Nginx代替httpd作为luci图形界面的web服务。对普通用户体验无影响，方便内网反代的进阶玩家配置（可配合DDNS使用）
 - 对支持远程启动的设备，提供Wake on LAN功能
+- 集成 mwan3 支持多拨加速
+- 集成 kmod-macvlan 破解单 Mac 地址限速
 
 注：  
 2. 默认的登录账号为root，密码为toor
