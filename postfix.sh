@@ -26,7 +26,7 @@ sed -i 's*root::0:0:99999:7:::*root:\$1\$Z5PSAHJ9$1UReP9Mm94CqDFVEnROB//:17713:0
 echo "Use 'toor' as the root password."
 
 # Add  3rd-part packages
-git clone -b packages https://github.com/JKSTAFF/match_complier.git package/custom
+git clone -b packages https://github.com/twotreeszf/GL-MT1300_OpenWrt_Build.git package/custom
 echo "Download 3rd-part packages into custom folder."
 
 # Add Fullcone-NAT option
